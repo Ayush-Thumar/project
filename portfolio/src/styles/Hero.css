@@ -44,3 +44,11 @@ video::-webkit-media-controls-panel {
   font-weight: 500;
   line-height: normal;
 }
+
+/* .hero-btn {
+  top: 20px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+} */

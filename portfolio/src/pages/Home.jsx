@@ -11,18 +11,17 @@ const Home = () => {
         <span className="top-elipse"></span>
       </div>
       {/* <Navbar /> */}
-      <span
-        className="logo-container"
-        style={{ float: "left", marginLeft: "0px" }}
-      >
-        <Logo style={{ width: "40px" }} />
-      </span>
-      <span
-        className="logo-container"
-        style={{ float: "right", marginLeft: "0px" }}
-      >
-        ayush.thumar@outlook.com
-      </span>
+      <div className="header">
+        <span
+          className="logo-container"
+          style={{ float: "left", marginLeft: "0px" }}
+        >
+          <Logo style={{ width: "40px" }} />
+        </span>
+        <span className="email">
+          <a href="mailto:hello@ayushthumar.dev">hello@ayushthumar.dev</a>
+        </span>
+      </div>
       <Hero />
     </>
   );

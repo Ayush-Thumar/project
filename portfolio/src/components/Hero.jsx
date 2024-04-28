@@ -25,13 +25,17 @@ const Hero = () => {
             ]}
             loop={1}
             cursor
-            // cursorStyle="_"
+            cursorStyle="_"
             typeSpeed={70}
             deleteSpeed={50}
             delaySpeed={1000}
           />
         </div>
       </div>
+      {/* <div className="hero-btn">
+        <button className="btn-1">Yes</button>
+        <button className="btn-2">No</button>
+      </div> */}
     </>
   );
 };

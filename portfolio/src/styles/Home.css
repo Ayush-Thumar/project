@@ -13,3 +13,22 @@
   top: -35%;
   position: absolute;
 }
+
+.header {
+  width: calc(100vw - 100px);
+  position: absolute;
+  z-index: 1000;
+}
+
+.email {
+  float: right;
+  margin-right: 0px;
+  margin-top: 7px;
+  font-size: 17px;
+  color: rgb(106, 106, 106);
+}
+.email a {
+  text-decoration: none;
+  color: #6a6a6a;
+  cursor: pointer;
+}
