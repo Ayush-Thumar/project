@@ -1,0 +1,70 @@
+.container {
+  height: 60px;
+  background: rgba(4, 1, 2, 0.2);
+  backdrop-filter: blur(56px);
+  padding-left: 189px;
+  padding-right: 189px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  width: -webkit-fill-available;
+  z-index: 1000000;
+}
+
+.logo-container {
+  float: left;
+  cursor: pointer;
+}
+
+.menu-container {
+  display: inline-flex;
+  justify-content: space-between;
+  gap: 48px;
+  height: 60px;
+}
+
+.menu-btn {
+  height: 60px;
+  background-color: transparent;
+  width: fit-content;
+  color: #fff;
+  font-family: "Instrument Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.active {
+  border-bottom: 1px solid transparent;
+  border-image: linear-gradient(
+    to left,
+    rgba(0, 255, 240, 0),
+    rgb(0, 255, 240),
+    rgb(0, 255, 240),
+    rgb(0, 255, 240),
+    rgba(0, 255, 240, 0)
+  );
+  border-image-slice: 1;
+}
+
+.contact-btn {
+  padding: 8px 29.04px;
+  border: 1px solid transparent;
+  border-radius: 70px;
+  background: linear-gradient(to right, #000000 44%, #181818 100%) padding-box,
+    linear-gradient(90deg, #ffffff, #cccccc, #202020) border-box;
+  cursor: pointer;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  color: #fff;
+  font-family: "Instrument Sans" !important;
+}

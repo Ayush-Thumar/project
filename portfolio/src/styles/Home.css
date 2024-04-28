@@ -1,0 +1,15 @@
+.te-container {
+  display: flex;
+  justify-content: center;
+}
+
+.top-elipse {
+  width: 528px;
+  height: 528px;
+  flex-shrink: 0;
+  border-radius: 528px;
+  background: #00fff0;
+  filter: blur(200px);
+  top: -35%;
+  position: absolute;
+}
